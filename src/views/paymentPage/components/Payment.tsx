@@ -6,7 +6,6 @@ export const Payment = ({ amount }: { amount: number }) => {
 
   return (
     <div>
-      <h3>Payment</h3>
       <PaymentMethods options={paymentMethods} />
       <button>${amount}</button>
     </div>
